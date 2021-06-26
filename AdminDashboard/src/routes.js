@@ -24,6 +24,7 @@ import TableList from "views/TableList.js";
 import Typography from "views/Typography.js";
 import UserProfile from "views/UserProfile.js";
 import Predictions from "views/Predictions.js";
+import Advertisement from "views/Advertisement.js";
 
 var routes = [
   {
@@ -46,8 +47,16 @@ var routes = [
     path: "/predictions",
     name: "Predictions",
     rtlName: "ملف تعريفي للمستخدم",
-    icon: "tim-icons icon-atom",
+    icon: "tim-icons icon-money-coins",
     component: Predictions,
+    layout: "/admin"
+  },
+  {
+    path: "/advertisement",
+    name: "Advertisement",
+    rtlName: "ملف تعريفي للمستخدم",
+    icon: "tim-icons icon-tap-02",
+    component: Advertisement,
     layout: "/admin"
   },
   // {
